@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.EditText;
+import android.widget.TextView;
 
 public class SimpleActivity extends AppCompatActivity {
 
@@ -15,7 +17,7 @@ public class SimpleActivity extends AppCompatActivity {
     // ....
     // rest of code here...
 
-}
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

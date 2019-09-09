@@ -9,18 +9,18 @@
 
     <EditText
         android:id="@+id/input_name"
-        android:hint="@string/hint_name"
+        android:hint="masukan nama anda!"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         />
 
     <Button
         android:id="@+id/button_submit"
-        android:text="@string/submit"
+        android:text="Submit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="handleSubmit"
-        />
+    />
 
     <TextView
         android:id="@+id/text_output"
